@@ -17,7 +17,7 @@ const About = () => {
             </Row>
             <Row>
                 <Col sm={{size:4, offset:2}}>
-                <AboutH1>Education</AboutH1>
+                <AboutH1>Graduation</AboutH1>
                 <br></br>
                 <Education>
                     부천대학교 정보통신과<br></br>
@@ -29,7 +29,7 @@ const About = () => {
                 </Education>
                 </Col>
                 <Col sm="4">
-                    <AboutH1>Skills</AboutH1>
+                    <AboutH1>Skill</AboutH1>
                     <Progressname>HTML&CSS</Progressname>
                     <Progress color="danger" value="90">90%</Progress>
                     <Progressname>JavaScript</Progressname>
