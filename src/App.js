@@ -11,13 +11,14 @@ import Sidebar from './components/Sidebar';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
+  
 
     const toggle = () =>{
         setIsOpen(!isOpen);
     };
   return (
     <>
-    <Router basename="/reactportfolio">
+    <Router>
       <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
             <Switch>
@@ -32,3 +33,4 @@ function App() {
 }
 
 export default App;
+
