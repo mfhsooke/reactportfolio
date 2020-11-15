@@ -29,7 +29,7 @@ const About = () => {
                 </Education>
                 </Col>
                 <Col sm="4">
-                    <AboutH1>Stack</AboutH1>
+                    <AboutH1>Skills</AboutH1>
                     <Progressname>HTML&CSS</Progressname>
                     <Progress color="danger" value="90">90%</Progress>
                     <Progressname>JavaScript</Progressname>
